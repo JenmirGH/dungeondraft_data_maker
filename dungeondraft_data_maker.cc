@@ -91,7 +91,7 @@ int main() {
     else if (type == "tilesets")
     {
         string color_type;
-        cout << "# Color type: normal or custom_color? (normal are black and white images that get colored by dungeondraft)" << endl;
+        cout << "# Color type: normal or custom_color? (Custom will only color reddish parts)" << endl;
         cin >> color_type;
             if (color_type == "normal" || color_type == "custom_color"){}
 
