@@ -37,7 +37,7 @@ In order for this program to work, the filenames may not contain any spaces, no 
 
 
 # Known issues
-Haven't yet figured out how to make a compiled release on github XD, so you have to compile it first.
+Haven't yet figured out how to make a compiled release on github XD, so I just put it up as a file.
 1. If a space is present in a filename, it isn't read in its entirety, making the created label or data file useless.
 2. If the tilesets and walls folders aren't already present in the data folder, no files will be created.
 3. Not too great feedback on what the programm does, it just exits when the type of asset to be read is spelled wrong.
