@@ -20,7 +20,7 @@ In order for this program to work, the filenames may not contain any spaces, no 
   *tilesets*
   1. Place the tilesets in the textures/tilesets/simple folder (make sure they are tiled 4x4, 1024x1024 pixels and around 100ppi to have them properly scaled in Dungeondraft.)
   2. Copy the program into the same folder and execute it.
-  3. Enter "tilesets" and then "normal" if you have black and white tilesets or "custom_color" if you have precolored tiles. (Again exclude the quotes)
+  3. Enter "tilesets" and then "normal" or "custom_color" where "custom_color" will only color reddish parts of the tile when you change the color in Dungeondraft. (Again exclude the quotes)
   4. Done
  
   *Label objects*
