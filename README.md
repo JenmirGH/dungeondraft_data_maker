@@ -43,3 +43,4 @@ Haven't yet figured out how to make a compiled release on github XD, so you have
 3. Not too great feedback on what the programm does, it just exits when the type of asset to be read is spelled wrong.
 4. Code does not yet contain any comments.
 5. Subfolders are also read by the program, so it only works if no subfolders are present.
+6. Only compatible with windows.
