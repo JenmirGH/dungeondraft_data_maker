@@ -1,6 +1,9 @@
 # dungeondraft_data_maker
 A small program for windows I put together to create the data files for walls or simple tilesets or a list of properly formated labels to put into the tag file.
 
+If you are looking for a more advanced tool to label your objects [EightBitz's /
+Dungeondraft-Custom-Tags](https://github.com/EightBitz/Dungeondraft-Custom-Tags) does it all with a very nice GUI, however I couldn't find any better program to do the wall and tileset files so I made my own. 
+
 When executed it reads all the filenames present in that folder and asks if objects, walls or tilesets are read.
   - "objects" will create a "labels.txt" file in the folder, which are formated to be copied over to the default.dungeondraft_tags file. 
   - "walls" will write a seperate .dungeondraft_wall file for each file in the folder, excluding the program, the "end" pieces of the wall and the .txt files it creates, the default color will always be "ffffff". 
