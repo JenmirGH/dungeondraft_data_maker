@@ -61,7 +61,7 @@ int main() {
         while(!inp.eof())
         {
             inp >> line_entry;
-            if (line_entry != "list.txt" && line_entry != "labels.txt" && line_entry != "LabelMaker.exe")
+            if (line_entry != "list.txt" && line_entry != "labels.txt" && line_entry != "dungeondraft_data_maker.exe")
             {
                 out << "\"textures/" << type << "/" << line_entry << "\"," << endl;
                 cout << "# read: " << line_entry << endl;
@@ -76,7 +76,7 @@ int main() {
             string line_entry_name = line_entry;
             line_entry_name.erase(line_entry.length()-4);
             string wall_out = "../../data/walls/" + line_entry_name + ".dungeondraft_wall";
-            if (line_entry != "list.txt" && line_entry != "labels.txt" && line_entry != "LabelMaker.exe" && line_entry.find("_end") == string::npos)
+            if (line_entry != "list.txt" && line_entry != "labels.txt" && line_entry != "dungeondraft_data_maker.exe" && line_entry.find("_end") == string::npos)
             {
                 ofstream w_out(wall_out);
                 w_out   << "{" << endl 
@@ -108,7 +108,7 @@ int main() {
             string line_entry_name = line_entry;
             line_entry_name.erase(line_entry.length()-4);
             string tile_out = "../../../data/tilesets/" + line_entry_name + ".dungeondraft_tileset";
-            if (line_entry != "list.txt" && line_entry != "labels.txt" && line_entry != "LabelMaker.exe")
+            if (line_entry != "list.txt" && line_entry != "labels.txt" && line_entry != "dungeondraft_data_maker.exe")
             {
                 ofstream t_out(tile_out);
                 t_out   << "{" << endl 
